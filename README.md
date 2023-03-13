@@ -14,8 +14,8 @@ Contents
 * [Introduction](##Introduction)
 * [Algorithm](##AlgorithmSteps)
 * [Results](##Results)
-	* [Objects Data](### ObjectsData)	
-	* [Flowers Data](### FlowersData)
+	* [ObjectsData](### ObjectsData)	
+	* [FlowersData](### FlowersData)
 * [Model Testing and Enviornment setting](## Model Testing and Enviornment setting)
 <!--te-->
 
