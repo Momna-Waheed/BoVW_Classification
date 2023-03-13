@@ -40,6 +40,3 @@ BoVW model represents images as visual words that act as describing features of 
 - Analyzing Performance measures: The testing results obtained by the trained model are then used to generate classification report and confusion matrix to analyze the values of model against each performance measure.
 
 
-![FlowDiagram ](https://user-images.githubusercontent.com/59650991/224586068-b96d6df5-dff3-472b-99fd-8f580c58b4ff.png)
-
-<img src ="./user-images.githubusercontent.com/59650991/224586068-b96d6df5-dff3-472b-99fd-8f580c58b4ff.png" width=600 height=300)
