@@ -42,4 +42,4 @@ BoVW model represents images as visual words that act as describing features of 
 
 ![FlowDiagram ](https://user-images.githubusercontent.com/59650991/224586068-b96d6df5-dff3-472b-99fd-8f580c58b4ff.png)
 
-<img src ="https://user-images.githubusercontent.com/59650991/224586068-b96d6df5-dff3-472b-99fd-8f580c58b4ff.png" width=600 height=300)
+<img src ="./user-images.githubusercontent.com/59650991/224586068-b96d6df5-dff3-472b-99fd-8f580c58b4ff.png" width=600 height=300)
