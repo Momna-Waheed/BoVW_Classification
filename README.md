@@ -84,5 +84,13 @@ Flowers data consisted of 5 classes including daisy, dandelion, roses, sunflower
 #### Wrong Classification
 ![wrong_f](https://user-images.githubusercontent.com/59650991/224588517-4db2ab50-5b2e-48b3-a73c-32e5bb1f3ee3.PNG)
 
+## Model Testing and Enviornment setting
+
+The model has been developed on google collab with pytorch 
+All the required libraried have been mentioned in the first cell and are all needed for succesfull execution of script
+The datasets have been read from google drive mounted with collab. The provided zip folders of dataset can be uploaded directly to google collab as well
+All the steps involved in the algorithm have been broken down into generic functions and have been initialized in the start
+Feature exraction, histogram computation, clusturing, model tesing and performace evaluation for both datasets have been implemented stepwise in sperate code blocka along with comments
+
 
 
