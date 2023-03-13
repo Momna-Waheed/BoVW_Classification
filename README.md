@@ -12,8 +12,11 @@ Contents
 
 <!--ts-->
 * [Introduction](##Introduction)
-* [Heading 3](#heading-3)
-* [Heading 3](#heading-3)
+* [Algorithm](##AlgorithmSteps)
+* [Results](##Results)
+	* [Objects Data](###ObjectsData)	
+	* [Flowers Data](###FlowersData)
+* [Model Testing and Enviornment setting](##ModelTestingandEnviornmentsetting)
 <!--te-->
 
 ## Introduction
@@ -38,5 +41,59 @@ BoVW model represents images as visual words that act as describing features of 
 - Classification: Lastly, the histograms computed in the previous step are used to train and test the model. The model is trained to classify the image into class with which it's histogram has maximum similarity. The dataset is split into training and testing data to evaluate the model's performance
 
 - Analyzing Performance measures: The testing results obtained by the trained model are then used to generate classification report and confusion matrix to analyze the values of model against each performance measure.
+
+The diagram attached below shows the sequence of steps
+
+![FlowDiagram ](https://user-images.githubusercontent.com/59650991/224586868-5e4e9add-1131-4195-9dbd-4c173294c719.png)
+
+## Results
+### Objects Data
+
+Objects data set consisted of 4 classes including Soccer Ball, Accordion, dollar bill , motor bike. The provided data set was split into training and testing data having 56 training samples and 8 testing samples. The value of k was kept to be 35. Both the classifiers caused only one miss classification in the testing samples giving and accuracy of 88\%. The confusion matrix and classification report having F1 Score , Precision etc. has been attached below for both classifiers
+
+
+#### Random Forest 
+
+![RF](https://user-images.githubusercontent.com/59650991/224587256-480910fa-e005-4911-b3a6-547fa4acab13.PNG)
+
+
+#### SVM
+![SVM](https://user-images.githubusercontent.com/59650991/224587261-be424556-9993-4983-bbb0-4d8e227e5307.PNG)
+
+
+#### Correct Classification
+![correct](https://user-images.githubusercontent.com/59650991/224587314-a2249e4b-dba7-4822-999a-793df396cbc4.PNG)
+
+
+#### Wrong Classification
+![wrong](https://user-images.githubusercontent.com/59650991/224587343-face4a82-92ed-40ce-a867-b7d15a53b07c.PNG)
+
+### Flowers Data
+
+Flowers data consisted of 5 classes including daisy, dandelion, roses, sunflowers, and tulips. There were total 3670 samples and the data was not split into training and testing samples thus while trianing it was split and 20% was kept for testing. Because of very slow clustering the value of clusters was kept to be 50. The data gave an accuracy of 58% with SVM and 55% with RF which might improve by increasing the number of clusters. The confusion matrix and classification report having F1 Score , Precision etc. has been attached below for both classifiers
+
+#### Random Forest 
+![F_RF](https://user-images.githubusercontent.com/59650991/224588499-c3996cad-9912-4e13-9683-f1f1cc084a9d.PNG)
+
+
+#### SVM
+![F_SVM](https://user-images.githubusercontent.com/59650991/224588492-bb45ad10-bf5e-43ce-9525-5bcb590ffbd0.PNG)
+
+
+#### Correct Classification
+![correct_f](https://user-images.githubusercontent.com/59650991/224588505-ee23e863-35f4-418b-bf29-e200cf2fd555.PNG)
+
+
+#### Wrong Classification
+![wrong_f](https://user-images.githubusercontent.com/59650991/224588517-4db2ab50-5b2e-48b3-a73c-32e5bb1f3ee3.PNG)
+
+## Model Testing and Enviornment setting
+
+- The model has been developed on google collab with pytorch 
+- All the required libraried have been mentioned in the first cell and are all needed for succesfull execution of script
+- The datasets have been read from google drive mounted with collab. The provided zip folders of dataset can be uploaded directly to google collab as well
+- All the steps involved in the algorithm have been broken down into generic functions and have been initialized in the start
+- Feature exraction, histogram computation, clusturing, model tesing and performace evaluation for both datasets have been implemented stepwise in sperate code blocks along with comments
+
 
 
