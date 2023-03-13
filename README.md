@@ -12,7 +12,7 @@ Contents
 
 <!--ts-->
 * [Introduction](##Introduction)
-* [Algorithm Steps](##Algorithm Steps)
+* [Algorithm](##Algorithm Steps)
 * [Results](##Results)
 	* [Objects Data](### Objects Data)	
 	* [Flowers Data](### Flowers Data)
