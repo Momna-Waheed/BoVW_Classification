@@ -39,4 +39,25 @@ BoVW model represents images as visual words that act as describing features of 
 
 - Analyzing Performance measures: The testing results obtained by the trained model are then used to generate classification report and confusion matrix to analyze the values of model against each performance measure.
 
+The diagram attached below shows the sequence of steps
+
+![FlowDiagram ](https://user-images.githubusercontent.com/59650991/224586868-5e4e9add-1131-4195-9dbd-4c173294c719.png)
+
+## Results
+### Objects Data
+
+Objects data set consisted of 4 classes including Soccer Ball, Accordion, dollar bill , motor bike. The provided data set was split into training and testing data having 56 training samples and 8 testing samples. Both the classifiers caused only one miss classification in the testing samples giving and accuracy of 88\%. The confusion matrix and classification report having F1 Score , Precision etc. has been attached below for both classifiers
+
+For Random Forest:
+![RF](https://user-images.githubusercontent.com/59650991/224587256-480910fa-e005-4911-b3a6-547fa4acab13.PNG)
+
+For SVM:
+![SVM](https://user-images.githubusercontent.com/59650991/224587261-be424556-9993-4983-bbb0-4d8e227e5307.PNG)
+
+Correct Classification:
+![correct](https://user-images.githubusercontent.com/59650991/224587314-a2249e4b-dba7-4822-999a-793df396cbc4.PNG)
+
+Wrong Classification:
+![wrong](https://user-images.githubusercontent.com/59650991/224587343-face4a82-92ed-40ce-a867-b7d15a53b07c.PNG)
+
 
