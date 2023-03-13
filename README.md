@@ -46,24 +46,43 @@ The diagram attached below shows the sequence of steps
 ## Results
 ### Objects Data
 
-Objects data set consisted of 4 classes including Soccer Ball, Accordion, dollar bill , motor bike. The provided data set was split into training and testing data having 56 training samples and 8 testing samples. Both the classifiers caused only one miss classification in the testing samples giving and accuracy of 88\%. The confusion matrix and classification report having F1 Score , Precision etc. has been attached below for both classifiers
+Objects data set consisted of 4 classes including Soccer Ball, Accordion, dollar bill , motor bike. The provided data set was split into training and testing data having 56 training samples and 8 testing samples. The value of k was kept to be 35. Both the classifiers caused only one miss classification in the testing samples giving and accuracy of 88\%. The confusion matrix and classification report having F1 Score , Precision etc. has been attached below for both classifiers
 
 
-### Random Forest 
+#### Random Forest 
 
 ![RF](https://user-images.githubusercontent.com/59650991/224587256-480910fa-e005-4911-b3a6-547fa4acab13.PNG)
 
 
-### SVM
+#### SVM
 ![SVM](https://user-images.githubusercontent.com/59650991/224587261-be424556-9993-4983-bbb0-4d8e227e5307.PNG)
-For SVM:
 
 
-### Correct Classification
+#### Correct Classification
 ![correct](https://user-images.githubusercontent.com/59650991/224587314-a2249e4b-dba7-4822-999a-793df396cbc4.PNG)
 
 
-### Wrong Classification
+#### Wrong Classification
 ![wrong](https://user-images.githubusercontent.com/59650991/224587343-face4a82-92ed-40ce-a867-b7d15a53b07c.PNG)
+
+### Flowers Data
+
+Flowers data consisted of 5 classes including daisy, dandelion, roses, sunflowers, and tulips. There were total 3670 samples and the data was not split into training and testing samples thus while trianing it was split and 20% was kept for testing. Because of very slow clustering the value of clusters was kept to be 50. The data gave an accuracy of 58% with SVM and 55% with RF which might improve by increasing the number of clusters. The confusion matrix and classification report having F1 Score , Precision etc. has been attached below for both classifiers
+
+#### Random Forest 
+![F_RF](https://user-images.githubusercontent.com/59650991/224588499-c3996cad-9912-4e13-9683-f1f1cc084a9d.PNG)
+
+
+#### SVM
+![F_SVM](https://user-images.githubusercontent.com/59650991/224588492-bb45ad10-bf5e-43ce-9525-5bcb590ffbd0.PNG)
+
+
+#### Correct Classification
+![correct_f](https://user-images.githubusercontent.com/59650991/224588505-ee23e863-35f4-418b-bf29-e200cf2fd555.PNG)
+
+
+#### Wrong Classification
+![wrong_f](https://user-images.githubusercontent.com/59650991/224588517-4db2ab50-5b2e-48b3-a73c-32e5bb1f3ee3.PNG)
+
 
 
